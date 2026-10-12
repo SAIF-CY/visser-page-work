@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Visser | Metselaar, Schilder & Stukadoor",
+    "description": "Verbouwingen en afwerking voor woning en bedrijf. Vakkundig team, nette werkplek en vrijblijvende offerte.",
+    "ogTitle": "Visser | Jouw verbouwing, goed gedaan",
+    "ogDescription": "Metselaar, schilder en stukadoor op één plek. Vraag een gratis offerte aan om jouw ruimte te transformeren."
+  },
+  "brand": {
+    "tagline": "VAN BEGIN TOT AFWERKING",
+    "ariaLabel": "Visser — startpagina"
+  },
+  "nav": {
+    "ariaLabel": "Hoofdnavigatie",
+    "mobileAriaLabel": "Mobiele navigatie",
+    "services": "Diensten",
+    "benefits": "Voordelen",
+    "work": "Ons werk",
+    "contact": "Contact",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "quoteButton": "Gratis offerte"
+  },
+  "hero": {
+    "eyebrow": "VERBOUWING & AFWERKING",
+    "headline": "Metselaar, schilder\nen stukadoor.\nJouw verbouwing, vakkundig uitgevoerd.",
+    "headlinePart1": "Metselaar, schilder",
+    "headlinePart2": "en stukadoor.",
+    "headlineHighlight": "Jouw verbouwing, vakkundig uitgevoerd.",
+    "subtitle": "Minder gedoe.\nMeer vakmanschap.",
+    "subtitlePart1": "Minder gedoe.",
+    "subtitlePart2": "Meer vakmanschap.",
+    "description": "Van eerste reparatie tot eindafwerking — een snel team voor jouw woning of bedrijfspand. Geen improvisatie, wél overzicht en een transparante offerte.",
+    "ctaWhatsapp": "Neem contact op",
+    "ctaEmail": "Offerte per e-mail aanvragen",
+    "assuranceQuote": "Vrijblijvende offerte",
+    "assuranceDirect": "Direct contact met de vakman",
+    "imageAlt": "Gerenoveerde ruimte met lichte verf, porseleinen tegels en stucplafond — illustratieve afbeelding",
+    "captionHeadline": "Jouw ruimte verdient vakwerk.",
+    "captionSub": "Kwaliteit die je ziet in de afwerking."
+  },
+  "trust": {
+    "residential": "Woningen en bedrijfspanden",
+    "team": "Vakkundig team, complete service",
+    "commitment": "Zorgvuldig met jouw pand"
+  },
+  "services": {
+    "eyebrow": "WAT WIJ DOEN",
+    "heading": "Van vloer tot plafond,\nwij regelen het.",
+    "headingPart1": "Van vloer tot plafond,",
+    "headingPart2": "wij regelen het.",
+    "subheading": "Één aanspreekpunt. Alle oplossingen\nvoor jouw verbouwing.",
+    "subheadingPart1": "Één aanspreekpunt. Alle oplossingen",
+    "subheadingPart2": "voor jouw verbouwing.",
+    "requestQuote": "Offerte aanvragen",
+    "items": [
+      {
+        "title": "Metselwerk & constructie",
+        "description": "Een solide basis voor elke renovatie.",
+        "items": [
+          "Muren, bepleistering en dekvloer",
+          "Leggen van vloeren en tegels",
+          "Leggen van porseleinen tegels"
+        ]
+      },
+      {
+        "title": "Professioneel schilderwerk",
+        "description": "Nieuwe kleuren. Strakke afwerking.",
+        "items": [
+          "Voorbehandeling, schuren en plamuren",
+          "Herstel van wanden en plafonds",
+          "Verf, vernis en textuurafwerking"
+        ]
+      },
+      {
+        "title": "Stucwerk & gipsplaat",
+        "description": "Details die jouw ruimte compleet maken.",
+        "items": [
+          "Systeemplafonds en tegels",
+          "Gipsplaatscheidingswanden",
+          "Sierstucwerk en decoratieve afwerking"
+        ]
+      },
+      {
+        "title": "Verbouwing & herstelwerk",
+        "description": "Praktische oplossingen, zonder gedoe.",
+        "items": [
+          "Betegeling van badkamer en keuken",
+          "Aanpak van vocht en lekkage",
+          "Dichten van scheuren en kleine reparaties"
+        ]
+      }
+    ]
+  },
+  "benefits": {
+    "eyebrow": "DE JUISTE AANPAK",
+    "heading": "Een goede verbouwing\nbegint met duidelijkheid.",
+    "headingPart1": "Een goede verbouwing",
+    "headingPart2": "begint met duidelijkheid.",
+    "subheading": "Wij regelen de verbouwing.\nJij geniet van het resultaat.",
+    "subheadingPart1": "Wij regelen de verbouwing.",
+    "subheadingPart2": "Jij geniet van het resultaat.",
+    "speed": {
+      "title": "Sneller klaar, minder wachttijd.",
+      "description": "Vakman en assistent werken samen voor een oplevering tot <strong>40% sneller*</strong> — zonder concessies aan kwaliteit."
+    },
+    "budget": {
+      "title": "Jouw budget, verstandig besteed.",
+      "description": "Zorgvuldige planning en materiaalraming. Je weet precies waar je voor betaalt en voorkomt verspilling."
+    },
+    "care": {
+      "title": "Netjes werken, in en om jouw pand.",
+      "description": "Bescherming van jouw ruimte, ordelijke werkplek en opruimen na afloop. Respect voor jouw dagelijkse leven en pand."
+    },
+    "note": "*De snelheid varieert afhankelijk van het type werk, de staat van het pand en de omvang van de verbouwing."
+  },
+  "portfolio": {
+    "eyebrow": "ELK DETAIL TELT",
+    "heading": "Resultaten die voor zichzelf spreken.",
+    "workCount": "{{count}} echte projecten",
+    "before": "Voor",
+    "after": "Na",
+    "note": "De openingsfoto is illustratief. De bovenstaande foto's zijn van echte projecten van ons team.",
+    "ariaLabel": "Projecten van Visser",
+    "prevAriaLabel": "Vorig project",
+    "nextAriaLabel": "Volgend project",
+    "items": [
+      {
+        "title": "Badkamer en granieten werkblad",
+        "alt": "Gerenoveerde badkamer met granieten werkblad, twee opzetwasbakken en accentmuur in terracottakleuren"
+      },
+      {
+        "title": "Laminaatvloer en plinten",
+        "alt": "Slaapkamer met nieuw gelegd houtkleurig laminaat en witte plinten langs geschilderde wanden"
+      },
+      {
+        "title": "Houten dakconstructie en tegelvloer",
+        "alt": "Gang met zichtbare houten dakconstructie en gelegde keramische vloertegels"
+      },
+      {
+        "title": "Structuurwand",
+        "alt": "Binnenwand waarop wandstructuur wordt aangebracht, tijdens de werkfase"
+      },
+      {
+        "title": "Schilderwerk van ruimtes",
+        "alt": "Wit geschilderde ruimte met zwart kozijn en uitzicht op de stad door het raam"
+      },
+      {
+        "title": "Werkplek afschermen tijdens verbouwing",
+        "alt": "Net geschilderd plafond met geïnstalleerde lamp en met folie afgedekt raam tijdens werkzaamheden"
+      },
+      {
+        "title": "Schuren en afwerken van plafonds",
+        "alt": "Vakman schuurt plafond met orbitale schuurmachine, werkend op een steiger"
+      },
+      {
+        "title": "Team aan het werk op de stelling",
+        "alt": "Team van twee vaklieden op steiger bezig met afwerking van een gipsplaatmuur"
+      }
+    ],
+    "doorComparison": {
+      "title": "Overschilderen en restauratie van deuren",
+      "beforeAlt": "Houten en glazen deur voor de werkzaamheden, met oude afbladderende verf en onbehandeld oppervlak",
+      "afterAlt": "Dezelfde deur na het overschilderen, met uniforme donkere afwerking en verzegelde glans"
+    }
+  },
+  "contact": {
+    "eyebrow": "KLAAR OM TE BEGINNEN?",
+    "heading": "Jouw volgende stap?\nEen vrijblijvende offerte.",
+    "headingPart1": "Jouw volgende stap?",
+    "headingPart2": "Een vrijblijvende offerte.",
+    "description": "Vertel ons wat je nodig hebt. Wij vinden de beste oplossing voor jouw ruimte.",
+    "ctaWhatsapp": "Gratis offerte aanvragen",
+    "ctaEmail": "Liever per e-mail?",
+    "assurance": "Vrijblijvend. Geen gedoe."
+  },
+  "footer": {
+    "contactsHeading": "Contactgegevens",
+    "phone": "App en bellen:",
+    "email": "E-mail:",
+    "emailUnavailable": "Nog niet beschikbaar",
+    "copyright": "© 2026 · Alle rechten voorbehouden."
+  },
+  "dialog": {
+    "title": "Offerte per e-mail aanvragen",
+    "description": "Stuur ons een e-mail met jouw plannen. We reageren zo snel mogelijk met een passende offerte.",
+    "tip": "Voor een snelle offerte: stuur foto's van de ruimte, een beschrijving van het werk en bij voorkeur de afmetingen mee.",
+    "confirm": "Sluiten"
+  },
+  "whatsapp": {
+    "ariaLabel": "Offerte aanvragen via WhatsApp"
+  }
+}

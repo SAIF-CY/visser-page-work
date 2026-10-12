@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Visser | Bricklayer, Painter & Plasterer",
+    "description": "Home and commercial renovations — masonry, painting and plastering. Professional team, tidy worksite, free quote.",
+    "ogTitle": "Visser | Your renovation, done right",
+    "ogDescription": "Bricklayer, painter and plasterer in one place. Request a free quote to transform your space."
+  },
+  "brand": {
+    "tagline": "FROM START TO FINISH",
+    "ariaLabel": "Visser — homepage"
+  },
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "mobileAriaLabel": "Mobile navigation",
+    "services": "Services",
+    "benefits": "Why us",
+    "work": "Our work",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "quoteButton": "Free quote"
+  },
+  "hero": {
+    "eyebrow": "RENOVATION & FINISHING",
+    "headline": "Bricklayer, painter\nand plasterer.\nYour renovation, done right.",
+    "headlinePart1": "Bricklayer, painter",
+    "headlinePart2": "and plasterer.",
+    "headlineHighlight": "Your renovation, done right.",
+    "subtitle": "Less hassle.\nMore craftsmanship.",
+    "subtitlePart1": "Less hassle.",
+    "subtitlePart2": "More craftsmanship.",
+    "description": "From first repair to final finish — a fast team for your home or business. No improvisation, just structure and a transparent quote.",
+    "ctaWhatsapp": "Get in touch",
+    "ctaEmail": "Request quote by email",
+    "assuranceQuote": "No-obligation quote",
+    "assuranceDirect": "Direct contact with the professional",
+    "imageAlt": "Renovated space with light paint, porcelain tiles and plastered ceiling — illustrative image",
+    "captionHeadline": "Your space deserves quality work.",
+    "captionSub": "Quality that shows in the finish."
+  },
+  "trust": {
+    "residential": "Residential and commercial",
+    "team": "Professional team, complete solutions",
+    "commitment": "Care for your property"
+  },
+  "services": {
+    "eyebrow": "WHAT WE DO",
+    "heading": "From floor to ceiling,\nwe handle it.",
+    "headingPart1": "From floor to ceiling,",
+    "headingPart2": "we handle it.",
+    "subheading": "One contact. All solutions\nfor your renovation.",
+    "subheadingPart1": "One contact. All solutions",
+    "subheadingPart2": "for your renovation.",
+    "requestQuote": "Request a quote",
+    "items": [
+      {
+        "title": "Masonry & structure",
+        "description": "A solid base for every transformation.",
+        "items": [
+          "Walls, plastering and screed floor",
+          "Floor and tile installation",
+          "Porcelain tile laying"
+        ]
+      },
+      {
+        "title": "Professional painting",
+        "description": "New colours. Impeccable finish.",
+        "items": [
+          "Preparation, sanding and filler",
+          "Wall and ceiling repairs",
+          "Paints, varnishes and textures"
+        ]
+      },
+      {
+        "title": "Plastering & drywall",
+        "description": "Details that elevate your space.",
+        "items": [
+          "Suspended and tile ceilings",
+          "Drywall partition walls",
+          "Decorative mouldings and finishes"
+        ]
+      },
+      {
+        "title": "Renovations & repairs",
+        "description": "Practical solutions, no hassle.",
+        "items": [
+          "Bathroom and kitchen tiling",
+          "Damp and leak treatment",
+          "Sealing cracks and minor repairs"
+        ]
+      }
+    ]
+  },
+  "benefits": {
+    "eyebrow": "THE RIGHT APPROACH",
+    "heading": "A good renovation\nstarts with clarity.",
+    "headingPart1": "A good renovation",
+    "headingPart2": "starts with clarity.",
+    "subheading": "We handle the renovation.\nYou enjoy the result.",
+    "subheadingPart1": "We handle the renovation.",
+    "subheadingPart2": "You enjoy the result.",
+    "speed": {
+      "title": "Faster done, less waiting.",
+      "description": "Professional and assistant working together for delivery up to <strong>40% faster*</strong> — without compromising on quality."
+    },
+    "budget": {
+      "title": "Your budget, wisely spent.",
+      "description": "Careful planning and material estimates. You know exactly what you're paying for and avoid waste."
+    },
+    "care": {
+      "title": "Clean work, inside and around your property.",
+      "description": "Protection of your space, tidy worksite and clean-up after. Respect for your daily routine and property."
+    },
+    "note": "*Speed varies depending on the type of work, property condition and renovation scope."
+  },
+  "portfolio": {
+    "eyebrow": "EVERY DETAIL COUNTS",
+    "heading": "Results that speak for themselves.",
+    "workCount": "{{count}} real projects",
+    "before": "Before",
+    "after": "After",
+    "note": "The opening photo is illustrative. The images above are from real projects by our team.",
+    "ariaLabel": "Visser's projects",
+    "prevAriaLabel": "Previous project",
+    "nextAriaLabel": "Next project",
+    "items": [
+      {
+        "title": "Bathroom and granite countertops",
+        "alt": "Renovated bathroom with granite countertop, two vessel sinks and terracotta accent wall"
+      },
+      {
+        "title": "Laminate floors and skirting boards",
+        "alt": "Bedroom with newly laid wood-coloured laminate floor and white skirting boards along painted walls"
+      },
+      {
+        "title": "Timber roof structure and tile floor",
+        "alt": "Corridor with exposed timber roof structure and laid ceramic floor tiles"
+      },
+      {
+        "title": "Texture Wall",
+        "alt": "Interior wall during the application of textured plaster and paint"
+      },
+      {
+        "title": "Room painting",
+        "alt": "White-painted room with black window frame and city view through the window"
+      },
+      {
+        "title": "Workspace protection during renovation",
+        "alt": "Freshly painted ceiling with installed light fixture and plastic-covered window during work"
+      },
+      {
+        "title": "Sanding and finishing ceilings",
+        "alt": "Professional sanding the ceiling with an orbital sander, working on a scaffold"
+      },
+      {
+        "title": "Team working on the scaffold",
+        "alt": "Team of two professionals on scaffold finishing a drywall surface"
+      }
+    ],
+    "doorComparison": {
+      "title": "Repainting and restoration of doors",
+      "beforeAlt": "Wooden and glass door before work, with old peeling paint and raw surface",
+      "afterAlt": "The same door after repainting, with uniform dark finish and sealed gloss"
+    }
+  },
+  "contact": {
+    "eyebrow": "READY TO GET STARTED?",
+    "heading": "Your next step?\nA no-obligation quote.",
+    "headingPart1": "Your next step?",
+    "headingPart2": "A no-obligation quote.",
+    "description": "Tell us what you need. We'll find the best solution for your space.",
+    "ctaWhatsapp": "Request free quote",
+    "ctaEmail": "Prefer email?",
+    "assurance": "No commitment. No hassle."
+  },
+  "footer": {
+    "contactsHeading": "Contact details",
+    "phone": "App and call:",
+    "email": "Email:",
+    "emailUnavailable": "Not yet available",
+    "copyright": "© 2026 · All rights reserved."
+  },
+  "dialog": {
+    "title": "Request your quote by email",
+    "description": "Send us an email with your project details. We will respond promptly with a tailored quote.",
+    "tip": "For a faster quote: send photos of the space, a description of the work and preferably the measurements.",
+    "confirm": "Close"
+  },
+  "whatsapp": {
+    "ariaLabel": "Request quote via WhatsApp"
+  }
+}
