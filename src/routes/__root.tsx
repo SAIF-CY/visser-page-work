@@ -9,12 +9,10 @@ import {
   type ErrorComponentProps,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation, I18nextProvider } from "react-i18next";
 
 import appCss from "../styles.css?url";
-
-// Inicializa o i18n antes do primeiro render
-import "../i18n";
+import i18nInstance from "../i18n";
 
 function NotFoundComponent() {
   return (
@@ -141,9 +139,11 @@ function RootComponent() {
   }, [i18n.language]);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
-    </QueryClientProvider>
+    <I18nextProvider i18n={i18nInstance}>
+      <QueryClientProvider client={queryClient}>
+        {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+        <Outlet />
+      </QueryClientProvider>
+    </I18nextProvider>
   );
 }
