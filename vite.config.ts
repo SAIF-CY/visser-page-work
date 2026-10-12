@@ -7,6 +7,11 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  // GitHub Pages serves the project under /<repo>/, so assets must be prefixed
+  // with that subpath. VITE_BASE_PATH is set by .github/workflows/deploy.yml.
+  vite: {
+    base: process.env.VITE_BASE_PATH ?? "/",
+  },
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this

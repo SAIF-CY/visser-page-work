@@ -12,7 +12,7 @@ import { useEffect, type ReactNode } from "react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 
 import appCss from "../styles.css?url";
-import i18nInstance from "../i18n";
+import i18nInstance, { applyStoredLanguage } from "../i18n";
 
 function NotFoundComponent() {
   return (
@@ -131,6 +131,12 @@ function RootShell({ children }: { children: ReactNode }) {
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   const { i18n } = useTranslation();
+
+  // Aplica o idioma salvo pelo visitante depois que a hidratação do HTML
+  // estático (sempre em NL) termina.
+  useEffect(() => {
+    applyStoredLanguage();
+  }, []);
 
   // Sincroniza o atributo lang do <html> com o idioma atual (importante para SEO e a11y)
   useEffect(() => {

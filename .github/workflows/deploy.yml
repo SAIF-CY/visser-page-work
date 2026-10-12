@@ -1,0 +1,60 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Allows running the deploy manually from the Actions tab
+  workflow_dispatch:
+
+# Allow the GITHUB_TOKEN to deploy to Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one concurrent deployment, skipping runs queued between runs
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+        env:
+          # Assets are referenced from the repo subpath, e.g. /visser-page-work/assets/...
+          VITE_BASE_PATH: /visser-page-work/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # TanStack Start prerenders into .output/public — that folder is the site root
+          path: .output/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
