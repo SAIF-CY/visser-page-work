@@ -188,5 +188,16 @@
   },
   "whatsapp": {
     "ariaLabel": "Request quote via WhatsApp"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "cta": "Go to homepage"
+  },
+  "error": {
+    "title": "This page could not be loaded",
+    "description": "Something went wrong on our side. Try again or go back to the homepage.",
+    "retry": "Try again",
+    "home": "Go to homepage"
   }
 }

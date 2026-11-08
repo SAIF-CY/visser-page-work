@@ -28,3 +28,20 @@ npm run build
 # Pré-visualização do build
 npm run preview
 ```
+
+## SEO e domínio
+
+O site publica automaticamente:
+
+- `title`, `description`, `canonical`, Open Graph e Twitter Card em `src/routes/__root.tsx`
+- JSON-LD `GeneralContractor` com telefone e e-mail reais (`src/seo/site.ts`)
+- `sitemap.xml` e `robots.txt`, gerados a partir de `VITE_SITE_URL` no build
+
+A URL canônica padrão é `https://visser-page-work.vercel.app`. Ao migrar para um
+domínio próprio, defina `VITE_SITE_URL` (por exemplo `https://visserschilderwerk.nl`)
+nas variáveis de ambiente do Vercel e no workflow do GitHub Pages. Canonical,
+`og:url`, `sitemap.xml` e `robots.txt` passam a apontar para o novo endereço.
+
+> Endereço, região de atendimento e redes sociais ainda **não** entram no JSON-LD
+> porque dependem de dados reais do proprietário. Veja o `TODO` em `src/seo/site.ts`.
+

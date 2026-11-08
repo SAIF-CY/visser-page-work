@@ -188,5 +188,16 @@
   },
   "whatsapp": {
     "ariaLabel": "Offerte aanvragen via WhatsApp"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die je zoekt bestaat niet of is verplaatst.",
+    "cta": "Naar de startpagina"
+  },
+  "error": {
+    "title": "Deze pagina kon niet worden geladen",
+    "description": "Er ging iets mis aan onze kant. Probeer opnieuw of ga terug naar de startpagina.",
+    "retry": "Opnieuw proberen",
+    "home": "Naar de startpagina"
   }
 }

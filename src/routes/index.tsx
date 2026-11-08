@@ -33,18 +33,18 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { LanguageSwitcher } from "@/i18n/LanguageSwitcher";
-import homeImage from "@/assets/renovated-home.jpg";
-import visserIcon from "@/assets/visser-icon.png";
-import bathroomFinish from "@/img-work/acabamento-interior6.jpg";
-import laminateFloor from "@/img-work/acabamento-interior5.jpg";
-import timberRoof from "@/img-work/acabamento-interior.jpg";
-import texturedWall from "@/img-work/acabamento-interior2.jpg";
-import paintedRoom from "@/img-work/acabamento-interior3.png";
-import protectedWindow from "@/img-work/acabamento-interior4.jpg";
-import doorBefore from "@/img-work/door-before.jpg";
-import doorAfter from "@/img-work/door-after.jpg";
-import sandingCeiling from "@/img-work/visser-at-work.jpg";
-import crewScaffold from "@/img-work/helper-at-work.jpg";
+import homeImage from "@/assets/renovated-home.webp";
+import visserIcon from "@/assets/visser-icon.webp";
+import bathroomFinish from "@/img-work/acabamento-interior6.webp";
+import laminateFloor from "@/img-work/acabamento-interior5.webp";
+import timberRoof from "@/img-work/acabamento-interior.webp";
+import texturedWall from "@/img-work/acabamento-interior2.webp";
+import paintedRoom from "@/img-work/acabamento-interior3.webp";
+import protectedWindow from "@/img-work/acabamento-interior4.webp";
+import doorBefore from "@/img-work/door-before.webp";
+import doorAfter from "@/img-work/door-after.webp";
+import sandingCeiling from "@/img-work/visser-at-work.webp";
+import crewScaffold from "@/img-work/helper-at-work.webp";
 
 const WHATSAPP_URL = "https://wa.me/31617668610";
 const EMAIL_ADDRESS = "johanvisser934@gmail.com";
@@ -489,12 +489,7 @@ function Index() {
           <h3>{t("footer.contactsHeading")}</h3>
           <p>
             <strong>{t("footer.phone")}</strong>{" "}
-            <a
-              className="footer-contact-link"
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a className="footer-contact-link" href="tel:+31617668610">
               +31 6 17668610
             </a>
           </p>
