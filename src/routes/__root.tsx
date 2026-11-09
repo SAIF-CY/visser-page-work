@@ -8,8 +8,9 @@ import {
   Scripts,
   type ErrorComponentProps,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { useTranslation, I18nextProvider } from "react-i18next";
+import { Analytics } from "@vercel/analytics/react";
 
 import appCss from "../styles.css?url";
 import i18nInstance, { applyStoredLanguage } from "../i18n";
@@ -198,11 +199,22 @@ function RootComponent() {
     }
   }, [i18n.language, i18n]);
 
+  // O Vercel Analytics só funciona no domínio do Vercel: o endpoint
+  // /_vercel/insights não existe no GitHub Pages e geraria 404 à toa.
+  // O estado começa desligado para não divergir do HTML do servidor.
+  const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
+  useEffect(() => {
+    setAnalyticsEnabled(
+      import.meta.env.PROD && !window.location.hostname.endsWith("github.io"),
+    );
+  }, []);
+
   return (
     <I18nextProvider i18n={i18nInstance}>
       <QueryClientProvider client={queryClient}>
         {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
         <Outlet />
+        {analyticsEnabled && <Analytics />}
       </QueryClientProvider>
     </I18nextProvider>
   );
